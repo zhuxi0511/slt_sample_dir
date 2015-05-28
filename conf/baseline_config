@@ -1,0 +1,24 @@
+[ALGORITHM]
+algorithm_dir=YOURPATH/algorithm
+algorithm=maxent_baseline
+
+[DATA]
+data_dir=YOURPATH/data
+model_dir=YOURPATH/model
+log_dir=YOURPATH/log
+output_dir=YOURPATH/new_output
+
+[PREPROCESS]
+predeal_module=maxent_predeal
+extract_module=word_list emotion_word syntax sentence_length
+
+[TRAIN]
+train_file=ALL
+model_name=AUTO
+
+[PREDICT]
+test_file=ALL
+test_model=AUTO
+
+[OTHER]
+send_mail_list=zhuxi910511@163.com
