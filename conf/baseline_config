@@ -6,7 +6,7 @@ algorithm=maxent_baseline
 data_dir=YOURPATH/data
 model_dir=YOURPATH/model
 log_dir=YOURPATH/log
-output_dir=YOURPATH/new_output
+output_dir=YOURPATH/output
 
 [PREPROCESS]
 predeal_module=maxent_predeal
